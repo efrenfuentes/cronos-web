@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.2.1p85
+  - 2.2.1
 
- before_script:
+before_script:
   - mysql -e 'create database IF NOT EXISTS cronos_test' -uroot
