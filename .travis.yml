@@ -4,3 +4,7 @@ rvm:
 
 before_script:
   - mysql -e 'create database IF NOT EXISTS cronos_test' -uroot
+
+addons:
+  code_climate:
+    repo_token: 7105659586feb43196ab88830e7f3dd3dd6187099844709b0b9d3602b70af230
